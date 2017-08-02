@@ -1,0 +1,80 @@
+/* @override http://demo.unclepear.com/wp/wp-content/plugins/easy-gallery-manager/slideshow.css?ver=3.0.3 */
+
+.slideshow {
+	position: relative;
+	padding-bottom: 20px;
+	margin: 0;
+	width: 100%;
+}
+
+.slideshow .slideshow_controls {
+	z-index: 100;
+	position: absolute;
+	cursor: default;
+	width: 100%;
+	top: 5px;
+}
+
+.slideshow .slideshow_controls .slideshow_controls_prev,
+.slideshow .slideshow_controls .slideshow_controls_next
+{
+	top: 0;
+	display: block;
+	position: absolute;
+	width: 25px;
+	height: 38px;
+	margin-left: -20px;
+	margin-right: -20px;
+}
+
+.slideshow .slideshow_controls .slideshow_controls_next {
+	right: 0;
+	background: url(controls.png) no-repeat right top;
+}
+
+.slideshow .slideshow_controls .slideshow_controls_next:hover {
+	background: url(controls.png) no-repeat right bottom;
+}
+
+.slideshow .slideshow_controls .slideshow_controls_prev {
+
+	background: url(controls.png) no-repeat left top;
+}
+
+.slideshow .slideshow_controls .slideshow_controls_prev:hover {
+	background: url(controls.png) no-repeat left bottom;
+}
+
+.slideshow .slideshow_controls .slideshow_controls_next span,
+.slideshow .slideshow_controls .slideshow_controls_prev span
+{
+	display: none;
+}
+
+.slideshow .slideshow_pager {
+	margin: 0;
+	padding: 0;
+	z-index: 200;
+	width: 100%;
+	text-align: right;
+}
+
+.slideshow .slideshow_caption {
+	z-index: 100;
+	bottom: 0px;
+}
+
+.slideshow .slideshow_caption span.title, 
+.slideshow .slideshow_caption span.description 
+{
+	display: block;
+}
+
+.slideshow .slideshow_caption span.title {
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.slideshow .slideshow_caption span.description {
+	font-size: 10px;
+}

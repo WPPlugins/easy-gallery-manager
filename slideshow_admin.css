@@ -1,0 +1,18 @@
+#sidemenu > #tab-library { display: none;}
+#sidemenu > #tab-type_url { display: none;}
+
+#gallery-form > #gallery-settings { display: none;}
+#gallery-form > #media-items { width: auto;}
+#gallery-form > table.widefat { width: 100%;}
+
+table.describe tr.align { display: none;}
+table.describe tr.post_excerpt { display: none;}
+table.describe tr.image-size { display: none;}
+table.describe tr.submit { display: none;}
+
+table.describe td.savesend input.button { display: none;}
+
+
+table.describe thead > tr > td input.button { display: none;}
+
+.egm-delete-link { float:right; margin-right:10px; display:block; line-height:36px;}
